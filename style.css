@@ -1,0 +1,17 @@
+.todo__remove:after {
+    content: '×';
+}
+
+.todo__item {
+    cursor: pointer;
+}
+
+.todo__item_is_checked {
+    text-decoration: line-through;
+}
+
+.todo__remove {
+    cursor: alias;
+    margin-left: 5px;
+    font-weight: bold;
+}
